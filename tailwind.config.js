@@ -13,6 +13,7 @@ module.exports = {
     extend: {
       colors: {
         primary: {
+          20: "#006563",
           50: "#f9ecd2",
           75: "#fdf6e9",
           100: "#f8e7c6",
@@ -25,7 +26,8 @@ module.exports = {
           800: "#cc8f19",
           900: "#b07b16",
         },
-        
+        secondary: "#006563",
+        tiga: "#F4F4F4",
       },
     },
   },
