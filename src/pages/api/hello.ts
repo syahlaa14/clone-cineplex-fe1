@@ -10,12 +10,11 @@ export default function handler(
     rows: [
       {
         name: "John Wick: Chapter 4 (IMAX 2D)",
-        content:
-          "With Fjord Tours you can explore more of the magical fjord landscapes with tours and activities on and around the fjords of Norway",
         contact: "hello@example",
         question: "random question",
         status: "on progress",
-        src: "https://images.unsplash.com/photo-1527004013197-933c4bb611b3?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=720&q=80",
+        src: "/images/john2.jpg",
+        style: "margin: 50px",
       },
       {
         name: "Mrs. Chatterje vs. Norway",
@@ -24,7 +23,7 @@ export default function handler(
         contact: "contact@example",
         question: "random",
         status: "on progress",
-        src: "https://images.unsplash.com/photo-1449824913935-59a10b8d2000?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=250&q=80",
+        src: "/images/john.jpg",
       },
       {
         name: "Shazam! Fury of the Gods",
@@ -33,7 +32,7 @@ export default function handler(
         contact: "contact@example",
         question: "random",
         status: "on progress",
-        src: "https://images.unsplash.com/photo-1444723121867-7a241cacace9?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=250&q=80",
+        src: "/images/danger.png",
       },
       {
         name: "roman picisan",
@@ -42,7 +41,7 @@ export default function handler(
         contact: "contact@example",
         question: "random",
         status: "on progress",
-        src: "https://images.unsplash.com/photo-1527004013197-933c4bb611b3?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=720&q=80",
+        src: "/images/norway.png",
       },
       {
         name: "ga roman picisan",
@@ -51,7 +50,34 @@ export default function handler(
         contact: "contact@example",
         question: "random",
         status: "on progress",
-        src: "https://images.unsplash.com/photo-1527004013197-933c4bb611b3?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=720&q=80",
+        src: "/images/shazam.png",
+      },
+      {
+        name: "ga roman picisan",
+        content:
+          "With Fjord Tours you can explore more of the magical fjord landscapes with tours and activities on and around the fjords of Norway",
+        contact: "contact@example",
+        question: "random",
+        status: "on progress",
+        src: "/images/suzume.png",
+      },
+      {
+        name: "ga roman picisan",
+        content:
+          "With Fjord Tours you can explore more of the magical fjord landscapes with tours and activities on and around the fjords of Norway",
+        contact: "contact@example",
+        question: "random",
+        status: "on progress",
+        src: "/images/jin.png",
+      },
+      {
+        name: "ga roman picisan",
+        content:
+          "With Fjord Tours you can explore more of the magical fjord landscapes with tours and activities on and around the fjords of Norway",
+        contact: "contact@example",
+        question: "random",
+        status: "on progress",
+        src: "/images/hantu.png",
       },
     ],
     total_rows: 10,
