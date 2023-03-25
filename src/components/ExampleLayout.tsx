@@ -5,6 +5,16 @@ import {} from "@fortawesome/react-fontawesome";
 const ExampleLayout = ({ children }: any) => {
   return (
     <>
+      <div className="flex z-67 w-full bg-gray-50 h-[85px] p-5 border border-b">
+        <Image
+          style={{ marginLeft: "500px" }}
+          src="/images/putih.png"
+          alt="logo"
+          ml-90
+          width={250}
+          height={150}
+        />
+      </div>
       <div className="flex z-67 w-full bg-secondary h-[85px] p-5 border border-b">
         <Image
           style={{ marginLeft: "50px" }}
@@ -14,72 +24,69 @@ const ExampleLayout = ({ children }: any) => {
           width={200}
           height={100}
         />
-        <div className="w-2/3 absolute{90}">
+        <div className="w-2/3 absolute{60}">
           <input
             style={{
               float: "right",
-              margin: "0.5rem 1rem 5rem 2rem",
+              margin: " 0.5rem -7rem 8rem 3rem",
             }}
             type="text"
             placeholder="Search teathers,movies..."
-            className="bg-white rounded-full border border-gray-300 focus:outline-none focus:ring-2 focus:ring-blue-600 focus:border-transparent px-4 py-2 w-64"
+            className="z-40 bg-zinc-200 rounded-full border-gray-300 focus:outline-none focus:ring-1 focus:ring-blue-600 focus:border-transparent px-3 py-2 w-96 italic text-sm font-light"
           />
           <button
             type="submit"
-            className="absolute right-0 top-0 mt-3 mr-4"
+            className="absolute right-1 top-2 mt-3 mr-4"
           ></button>
         </div>
       </div>
-      <div className="pt-[15px] w-full h-[55px] pb-3 px-2 md:px-5 absolute{100} flex space-between bg-tiga">
+      <div className="z-40 w-full bg-gray-100 h-[65px] p-5 navbar font-semibold ">
         <ul>
-          <a href="https://mtix.21cineplex.com/?mod=mtix">
-            <Image
-              src="/images/mtix.png"
-              width={80}
-              height={80}
-              alt="Image"
-              style={{ float: "right", margin: "0rem 0rem 2rem 2rem" }}
-            />
-          </a>
           <a
-            href="https://21cineplex.com/dolby-atmos"
-            className="flex-items-center"
+            href="#"
+            style={{ margin: "4rem 0rem 2rem 4rem" }}
+            className="p-3 text-green-600 "
           >
-            <Image
-              src="/images/dolby.png"
-              width={125}
-              height={200}
-              alt="Image"
-              style={{ float: "right", margin: "1rem 2rem 1rem 2rem" }}
-            />
-          </a>
-          <a
-            href="https://21cineplex.com/imax"
-            className="position:absolute flex-items-center"
-          >
-            <Image
-              src="/images/imax.png"
-              width={75}
-              height={80}
-              text-align="center"
-              alt="Image"
-              style={{ float: "right", margin: "0rem 0rem 2rem 10rem" }}
-            />
-          </a>
-          <a href="#" style={{ margin: "50px" }} className="p-3 text-green-700">
             Now Playing
           </a>
-          <a href="#" className="p-3 text-green-700">
+          <a href="#" className="p-3 text-green-600">
             Upcoming
           </a>
-          <a href="#" className="p-3 text-green-700">
+          <a href="#" className="p-3 text-green-600">
             Theaters
           </a>
-          <a href="#" className="p-3 text-green-700">
+          <a href="#" className="p-3 text-green-600">
             Promotions
           </a>
-          <a href="#" className="p-3 text-green-700">
+          <a href="#" className="p-3 text-green-600">
             Info 21
+          </a>
+          <a href="#">
+            <Image
+              src="/images/imax.png"
+              height={18}
+              width={80}
+              alt=""
+              style={{ margin: "-1.5rem 0rem 2rem 47rem" }}
+            ></Image>
+          </a>
+          <a href="#">
+            <Image
+              src="/images/dolby.png"
+              alt=""
+              height={18}
+              width={120}
+              style={{ margin: "-4.7rem 0rem 2rem 56rem" }}
+            ></Image>
+          </a>
+          <a href="#">
+            <Image
+              src="/images/mtix.png"
+              alt=""
+              height={18}
+              width={82}
+              style={{ margin: "-4.9rem 0rem 2rem 67.5rem" }}
+            ></Image>
           </a>
         </ul>
       </div>
@@ -91,26 +98,18 @@ const ExampleLayout = ({ children }: any) => {
         height={100}
       />
       <div
-        className="md:px-5  bg-secondary text-gray-50"
-        style={{
-          margin: "50px 70px",
-          display: "inline-block",
-          padding: "6px",
-          border: "2px",
-        }}
+        style={{ margin: "550px 0rem -2.1rem 8.7rem" }}
+        className="mt-20 ml-13 w-40 bg-teal-800 text-gray-200 text-center pb-1.5 pt-0.5 font-bold tracking-widest"
       >
         <p>Now Playing</p>
       </div>
+
       <div
-        className="md:px-5 bg-gray-300 text-green-500"
-        style={{
-          display: "inline-block",
-          padding: "6px",
-          border: "2px",
-        }}
+        style={{ margin: "-21px 6rem 0rem 18.8rem" }}
+        className="mt-45 ml-71 w-40 bg-gray-200 text-teal-600 text-center pb-1.5 pt-0.5 font-bold tracking-widest w-34 p-1"
       >
-        <div className="select-twenty ">
-          <select className="custom-select bg-gray-300" id="city-change">
+        <div className="select-twenty">
+          <select className="custom-select bg-gray-300" id="city-change p-1">
             <option value="1">JAKARTA</option>
             <option value="2">AMBON</option>
             <option value="3">BALIKPAPAN</option>
@@ -132,8 +131,28 @@ const ExampleLayout = ({ children }: any) => {
         </div>
       </div>
       <div className="full pt-[10px] pb-2 px-10 md:px-5">{children}</div>
-      <div className="w-full bg-secondary h-[100px] pb-[48px] md:pb-0 px-2 md:px-5">
-        Footer
+      <div className="w-full bg-secondary h-[140px] pb-[48px] md:pb-0 px-2 md:px-5">
+        <ul>
+          <a
+            href="#"
+            style={{ margin: "4rem 0rem 2rem 4rem" }}
+            className="p-3 text-gray-200 "
+          >
+            Profile
+          </a>
+          <a href="#" className="p-3 text-gray-200">
+            |
+          </a>
+          <a href="#" className="p-3 text-gray-200">
+            Terms of Use
+          </a>
+          <a href="#" className="p-3 text-gray-200">
+            |
+          </a>
+          <a href="#" className="p-3 text-gray-200">
+            Advertising
+          </a>
+        </ul>
       </div>
     </>
   );

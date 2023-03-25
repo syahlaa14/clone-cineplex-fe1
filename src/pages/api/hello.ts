@@ -10,28 +10,18 @@ export default function handler(
     rows: [
       {
         name: "John Wick: Chapter 4 (IMAX 2D)",
-        contact: "hello@example",
-        question: "random question",
-        status: "on progress",
+        umur: "D17+",
         src: "/images/john2.jpg",
         style: "margin: 50px",
       },
       {
         name: "John Wick: Chapter 4",
-        content:
-          "Magical fjord landscapes with tours and activities on and around the fjords of Norway",
-        contact: "contact@example",
-        question: "random",
-        status: "on progress",
+        umur: "D17+",
         src: "/images/john.jpg",
       },
       {
         name: "Dungeons & Dragons: Honor Among Thieves ",
-        content:
-          "With Fjord Tours you can explore more of the magical fjord landscapes with tours and activities on and around the fjords of Norway",
-        contact: "contact@example",
-        question: "random",
-        status: "on progress",
+        umur1: "SU",
         src: "/images/danger.png",
       },
       {

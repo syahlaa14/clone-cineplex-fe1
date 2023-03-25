@@ -1,17 +1,23 @@
-import { Badge, Button, Card, Group, Image, Text } from "@mantine/core";
+import { Badge, Card, CardSection, Group, Image, Text } from "@mantine/core";
 
 const Example = ({ data }: { data: any[] }) => {
   return (
-    <div className="grid grid-cols-0 md:grid-cols-4 gap-2">
+    <div className="grid grid-cols-2 md:grid-cols-4 gap-5 p-10 mx-55">
       {data?.map((item, index) => (
         <Card key={index}>
-          <Image src={item.src} height={450} alt=" Film" />
-          <Group position="apart" mt="md" mb="xs">
-            <Text weight={500}>{item.name}</Text>
-            <Badge color="pink" variant="light">
-              On Sale
-            </Badge>
-          </Group>
+          <Image src={item.src} height={370} width={280} alt="Norway" />
+
+          <Text weight={500} size={19} text-align="center">
+            {item.name}
+          </Text>
+
+          <Badge color="pink" variant="light" mt="md">
+            {item.umur}
+          </Badge>
+
+          <Badge color="green" variant="light" mt="md">
+            {item.umur1}
+          </Badge>
         </Card>
       ))}
     </div>

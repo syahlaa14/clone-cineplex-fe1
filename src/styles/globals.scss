@@ -8,3 +8,17 @@ body {
   margin: 0;
   letter-spacing: 0.05em;
 }
+
+.navbar a {
+  font: medium;
+  font-weight: 500;
+  padding-left: 30px;
+  color: var(--base);
+  float: center;
+}
+
+nav {
+  font: medium;
+  font-variant: normal;
+  margin-left: 90px;
+}
