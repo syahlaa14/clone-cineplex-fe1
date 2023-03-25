@@ -17,7 +17,7 @@ export default function handler(
         style: "margin: 50px",
       },
       {
-        name: "Mrs. Chatterje vs. Norway",
+        name: "John Wick: Chapter 4",
         content:
           "Magical fjord landscapes with tours and activities on and around the fjords of Norway",
         contact: "contact@example",
@@ -26,7 +26,7 @@ export default function handler(
         src: "/images/john.jpg",
       },
       {
-        name: "Shazam! Fury of the Gods",
+        name: "Dungeons & Dragons: Honor Among Thieves ",
         content:
           "With Fjord Tours you can explore more of the magical fjord landscapes with tours and activities on and around the fjords of Norway",
         contact: "contact@example",
@@ -35,7 +35,7 @@ export default function handler(
         src: "/images/danger.png",
       },
       {
-        name: "roman picisan",
+        name: "Mrs. Chatterjee vs. Norwa",
         content:
           "With Fjord Tours you can explore more of the magical fjord landscapes with tours and activities on and around the fjords of Norway",
         contact: "contact@example",
@@ -44,7 +44,7 @@ export default function handler(
         src: "/images/norway.png",
       },
       {
-        name: "ga roman picisan",
+        name: "Shazam! Fury of the Gods",
         content:
           "With Fjord Tours you can explore more of the magical fjord landscapes with tours and activities on and around the fjords of Norway",
         contact: "contact@example",
@@ -53,7 +53,7 @@ export default function handler(
         src: "/images/shazam.png",
       },
       {
-        name: "ga roman picisan",
+        name: "Suzume",
         content:
           "With Fjord Tours you can explore more of the magical fjord landscapes with tours and activities on and around the fjords of Norway",
         contact: "contact@example",
@@ -62,7 +62,7 @@ export default function handler(
         src: "/images/suzume.png",
       },
       {
-        name: "ga roman picisan",
+        name: "Jin Qorin",
         content:
           "With Fjord Tours you can explore more of the magical fjord landscapes with tours and activities on and around the fjords of Norway",
         contact: "contact@example",
@@ -71,7 +71,7 @@ export default function handler(
         src: "/images/jin.png",
       },
       {
-        name: "ga roman picisan",
+        name: "Hantu Baru",
         content:
           "With Fjord Tours you can explore more of the magical fjord landscapes with tours and activities on and around the fjords of Norway",
         contact: "contact@example",
