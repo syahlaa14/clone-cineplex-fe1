@@ -12,11 +12,15 @@ const Example = ({ data }: { data: any[] }) => {
           </Text>
 
           <Badge color="pink" variant="light" mt="md">
-            {item.umur}
+            {item.umur17}
           </Badge>
 
           <Badge color="green" variant="light" mt="md">
-            {item.umur1}
+            {item.umur}
+          </Badge>
+
+          <Badge color="blue" variant="light" mt="md">
+            {item.umur13}
           </Badge>
         </Card>
       ))}

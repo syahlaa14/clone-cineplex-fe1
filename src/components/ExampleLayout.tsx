@@ -61,7 +61,7 @@ const ExampleLayout = ({ children }: any) => {
           <a href="#" className="p-3 text-green-600">
             Info 21
           </a>
-          <a href="#">
+          <a href="https://21cineplex.com/imax">
             <Image
               src="/images/imax.png"
               height={18}
@@ -70,7 +70,7 @@ const ExampleLayout = ({ children }: any) => {
               style={{ margin: "-1.5rem 0rem 2rem 47rem" }}
             ></Image>
           </a>
-          <a href="#">
+          <a href="https://21cineplex.com/dolby-atmos">
             <Image
               src="/images/dolby.png"
               alt=""
@@ -79,7 +79,7 @@ const ExampleLayout = ({ children }: any) => {
               style={{ margin: "-4.7rem 0rem 2rem 56rem" }}
             ></Image>
           </a>
-          <a href="#">
+          <a href="https://mtix.21cineplex.com/?mod=mtix">
             <Image
               src="/images/mtix.png"
               alt=""
